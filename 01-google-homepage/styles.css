@@ -71,7 +71,7 @@
 .page-content {
     display: flex;
     justify-content: center;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 100px);
     /* border: 10px solid goldenrod; */
 }
 
@@ -165,4 +165,50 @@
 
 .island-link:hover {
     text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 40px;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+.footer .footer-right {
+    display: flex;
+}
+
+.footer .footer-left {
+    display: flex;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer li {
+    list-style: none; 
+}
+
+.footer .link-text {
+    font-size: 14px;
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.footer .link-text:hover {
+    text-decoration: underline;
+}
+
+.footer .footer-left li {
+    margin-left: 27px;
+}
+
+.footer .footer-right li {
+    margin-right: 27px;
 }
